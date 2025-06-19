@@ -1,4 +1,4 @@
-let API_URL = "http://api.weatherapi.com/v1/current.json";
+let API_URL = "https://api.weatherapi.com/v1/current.json";
 let API_KEY = import.meta.env.VITE_MY_SECRET;
 
 let getWeatherInfo = async (city) =>{
